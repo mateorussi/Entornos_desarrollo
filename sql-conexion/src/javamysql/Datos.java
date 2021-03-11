@@ -23,7 +23,7 @@ public class Datos {
     try {
 		Class.forName("com.mysql.jdbc.Driver");
 		conexion = DriverManager.getConnection(server,user,password);
-		System.out.println("Conexi�n a base de datos "+server+" ... OK");
+		System.out.println("Conexion a base de datos "+server+" ... OK");
     } catch (ClassNotFoundException ex) {
       System.out.println("Error cargando el Driver MySQL JDBC ... FAIL");
       //Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
