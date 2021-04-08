@@ -60,4 +60,9 @@ public class Datos {
 	            //Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
 	        }
 	    }
+
+	public static void setVisible(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
 	}
